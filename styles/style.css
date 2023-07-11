@@ -153,6 +153,22 @@ body{
     line-height: 1;
 }
 
+#bigIT{
+    color: var(--logo-orange);
+    font-size: 300px;
+    margin: 0;
+    margin-left: 20px;
+    height: fit-content;
+    margin-bottom: -100px;
+    margin-top: -100px;
+    font-weight: 600;
+}
+
+#bigITHolder{
+    display: flex;
+    align-items: center;
+}
+
 
 .sideParagraph{
     margin:0;
@@ -338,4 +354,100 @@ body{
 #linkedinLink img{
     width: 20px;
     display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 950px) {
+
+    /* general */
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .bigHeader{
+        font-size:40px;
+    }
+    .img-n-text{
+        display:block;
+    }
+
+    #bigIT{
+        font-size:120px;
+    }
+    #bigITHolder{
+        justify-content: center;
+
+    }
+
+    #bigITHolder > .bigHeader{
+        text-align: unset;
+    }
+
+    .bigHeader{
+        text-align: center;
+    }
+
+    .sideParagraph{
+        font-size: 16px;
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .actionCall{
+        margin: auto;
+        margin-top: 1em;
+    }
+
+    .img-n-text img{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    /* course blocks */
+    #courseBlockContainer{
+        display: block;
+        margin: 0;
+    }
+
+    .courseBlock{
+        width: 80%;
+        margin:auto;
+        margin-top:15px;
+    }
+
+    /* contact page */
+    #contactForm{
+        width: 80%;
+    }
+    #contactForm img{
+        display:none;
+    }
+
+    /* footer */
+    .centerTextSection p{
+        width: 80%;
+    }
+
+    #footer > .logo > .logoText{
+        display: none;
+    }
+
+    #contacts a{
+        margin:5px;
+        font-size: 12px;
+    }
+
+    #contacts a img{
+        width: 15px;
+    }
 }
