@@ -44,9 +44,12 @@ body{
     margin-right: 15px;
 }
 
+#navbar > .logo img{
+    width: 70px;
+}
+
 .logoText{
     display: grid;
-    justify-items: center;
     width: fit-content;
     font-weight: 800;
     color:var(--logo-orange);
@@ -55,6 +58,7 @@ body{
 
 .logoText p{
     margin:0;
+    font-size: 20px;
 }
 
 .candorText{
