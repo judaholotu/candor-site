@@ -454,4 +454,17 @@ body{
     #contacts a img{
         width: 15px;
     }
+
+    #navbar > .logo img{
+        width: 30px;
+    }
+
+    .logoText p{
+        font-size: unset;
+    }
+
+    .candorText{
+        font-size: 20px !important;
+    }
+    
 }
